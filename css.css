@@ -1,0 +1,32 @@
+body{
+	background: white;
+	margin: auto;
+	padding: 0px;
+	font-family: "Microsoft Yahei";
+	width: 1000px;
+}
+
+#header{
+	padding-left: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 5px solid purple;
+	font-size:30px;
+}
+
+#loginn{
+	padding-top: 250px;
+	padding-bottom: 250px;
+	text-align: center;
+/*	border: 1px solid ;*/
+}
+
+
+#footer{
+	margin: 10px auto;
+	text-align: center;
+	font-size: 15px;
+	border-top: 1px solid ;
+}
+
+}

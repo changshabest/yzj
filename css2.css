@@ -1,0 +1,73 @@
+body{
+	font-family: "Microsoft Yahei",Arial;
+	font-size: 15px;
+	width: 1000px;
+	margin:auto;
+}
+
+#header2 ul{
+	float:left;
+	padding:0;
+	margin:0;
+	width: 100%;
+	list-style-type:none;
+	}
+#header2 ul a{
+	float:left;
+	width:106px;
+	text-decoration:none;
+	color:white;
+	background-color:purple;
+	padding:0.2em 0.6em;
+	border-right:1px solid white;
+	text-align: center;
+	}
+#header2 ul li a:hover{
+	background-color:#ff3300;
+}
+#header2 ul li{
+	display:inline
+}
+
+#controlpanel ul{
+	display: block;
+	float: left;
+	margin: 30px 0px 10px 0px;
+	padding: 0px;
+	list-style-type:none;
+	height: 600px;
+	border: 1px solid;
+}
+
+.btn{
+	width: 150px;
+	margin-bottom: 10px;
+}
+
+#detailmessage{
+	display: block;
+	border: 1px solid black;
+	width: 800px;
+	height: 600px;
+	margin-top: 30px;
+}
+
+#detailmessage table{
+	width: 800px;
+	float: right;
+	display: inline;
+	border-collapse:collapse;
+	text-align: center;
+  }
+
+ #detailmessage td{
+ 	width: 100px;
+ }
+
+ #detailmessage th,tr{
+ 	height: 30px;
+ }
+
+#detailmessage table tr:nth-child(even){
+	background: #ccc;
+}
